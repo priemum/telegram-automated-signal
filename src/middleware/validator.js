@@ -1,5 +1,5 @@
 const redisService = require('../services/redis.service');
-
+  
 const tradingViewValidator = async (req, res, next) => {
     const clientIP = req.ip || req.connection.remoteAddress;
     
